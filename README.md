@@ -37,6 +37,3 @@ The app uses **React Router** for navigation, **Redux Toolkit** for state manage
   - Consistent data flow across components
 
 ---
-
-## 📂 Project Structure
-
