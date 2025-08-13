@@ -1,12 +1,42 @@
-# React + Vite
+# 📖 Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern blog platform built with **React** for the frontend and **Appwrite** as the backend service.  
+The app uses **React Router** for navigation, **Redux Toolkit** for state management, and supports full **CRUD** (Create, Read, Update, Delete) functionality for blog posts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React
+- **Backend:** Appwrite (self-hosted or cloud)
+- **Routing:** React Router
+- **State Management:** Redux Toolkit (centralized store)
+- **Styling:** Tailwind CSS (or your choice)
+- **Authentication:** Appwrite Auth
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- **User Authentication**
+  - Sign up / Log in / Log out
+  - Secure session handling with Appwrite
+
+- **CRUD Operations**
+  - Create new blog posts
+  - Read and display blog posts
+  - Edit existing posts
+  - Delete posts
+
+- **Routing**
+  - Smooth navigation using React Router
+  - Dynamic routes for individual blog details
+
+- **Centralized State Management**
+  - Redux Toolkit for managing user state, blog posts, and app status
+  - Consistent data flow across components
+
+---
+
+## 📂 Project Structure
+
